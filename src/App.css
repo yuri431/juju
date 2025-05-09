@@ -1,0 +1,292 @@
+/* Light theme */
+body#☀️ {
+  background-image: url('/public/lighttheme.jpg');
+}
+
+/* Dark theme */
+body#🌙  {
+  background-image: url('/public/chatbg.png ');
+}
+
+
+/* Common styles */
+body {
+  background-size: contain;
+  background-repeat: repeat;
+  transition: background-image 1.5s ease;
+  background-color: #2c3e50;
+  background-image: url('/public/chatbg.png');
+  margin: 0;
+  min-height: 100vh;
+  margin: 0;
+  min-height: 100vh;
+}
+
+body, p, span, div, a, li, ul, ol, input, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.theme-button {
+  padding: 12px 24px;
+  margin-top: -10px;
+  margin-left: px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #4b2c50;
+  color: white;
+  border: 2px solid #ecf0f1;
+  border-radius: 25px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.buttonsignin{
+  margin-left: 560px;
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.buyitlogo{
+  width:50px;
+  height:50px;
+ 
+ object-fit: contain;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-backgound{
+  background-color: aliceblue;
+
+}
+
+.App-header {
+  background-color: aliceblue;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* style the image  */
+.product_img {
+ width:100%;
+ height:200px;
+ object-fit: contain;
+ border-radius: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+.f{
+  outline: none;
+  background: transparent;
+  border: none;
+ 
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signin {
+  background-image: url('/public/chatbg.png'); 
+  background-size: cover;
+  background-color: beige;
+  backface-visibility: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  
+}
+.cimages{
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+
+}
+
+.bsignup{
+  background-color: #8b10b1;
+  color:white;
+  border: 0px ;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+.signup {
+  background-image: url('/public/chatbg.png'); 
+  background-size: cover;
+  backface-visibility: hidden;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+.well{
+  width:20ch;
+  text-wrap: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(20) infinite alternate-reverse;
+}
+@keyframes typing{
+  from{
+    width: 0ch;
+  }
+}
+.safaricom{
+  height: fit-content;
+  width: fit-content;
+  object-fit: contain;
+}
+
+/* Full-Screen Preloader (Overlay) */
+.overlay-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Make sure it's above all content */
+}
+
+.overlay-loader .spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.overlay-loader p {
+  color: white;
+  margin-top: 10px;
+}
+
+.cartlogo{
+  width:65px;
+  height:65px;
+  border-radius: 25px;
+  margin-left: 10px;
+  object-fit: contain;
+  }
+  .cart-button {
+  /* position:relative; */
+  margin-top: -63px;
+  margin-left: 0%;
+  font-size: 1rem;
+  cursor: pointer;
+  }
+  
+  /* Footer styles */
+.footer {
+background-color: #2C3E50;
+color: #ecf0f1;
+padding: 40px 0;
+text-align: center;
+margin-top: auto;
+}
+
+.footer-container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.footer-section {
+margin-bottom: 30px;
+}
+
+.footer-title {
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.footer-links {
+list-style: none;
+padding: 0;
+}
+
+.footer-links li {
+margin: 10px 0;
+}
+
+.footer-links a {
+color: #ecf0f1;
+text-decoration: none;
+font-size: 16px;
+}
+
+.footer-links a:hover {
+text-decoration: underline;
+}
+
+.social-icons {
+margin-top: 10px;
+}
+
+.social-icons a {
+color: #ecf0f1;
+margin: 0 15px;
+font-size: 24px;
+}
+
+.social-icons a:hover {
+color: #3498db;
+}
+
+.newsletter {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+.newsletter-input {
+padding: 10px;
+border: none;
+border-radius: 5px;
+width: 250px;
+margin-right: 10px;
+}
+
+.newsletter-btn {
+background-color: #3498db;
+padding: 10px 20px;
+border: none;
+color: #fff;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.newsletter-btn:hover {
+background-color: #2980b9;
+}
+
+.footer-bottom {
+margin-top: 30px;
+font-size: 14px;
+}
+
