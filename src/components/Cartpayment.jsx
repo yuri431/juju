@@ -25,7 +25,7 @@ const Cartpayment = () => {
       data.append("phone", phone);
 
       const response = await axios.post(
-        "https://alexmuuo815.pythonanywhere.com/api/mpesa_payment",
+        "https://teekay.pythonanywhere.com/api/mpesa_payment",
         data
       );
 
@@ -37,13 +37,13 @@ const Cartpayment = () => {
     }
   };
 
-  const image_url = "https://alexmuuo815.pythonanywhere.com/static/images/";
+  const image_url = "https://teekay.pythonanywhere.com/static/images/";
 
   return (
     <div className='row justify-content-center'>
       {products.map((product, index) => (
         <div key={index} className='card shadow col-md-3 m-2'>
-          <img src={image_url + product.product_photo} alt="" className="mt-4 product_img" />
+          <img src={image_url + product.electronic_photo} alt="" className="mt-4 product_img" />
           <div className="card-body">
             <h5 className="text-info">{product.product_name}</h5>
             <p>Qty: {product.quantity}</p>

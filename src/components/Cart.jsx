@@ -48,7 +48,7 @@ const Cart = () => {
     return cartItems.reduce((sum, product) => sum + product.product_cost * product.quantity, 0);
   };
 
-  const image_url = "https://alexmuuo815.pythonanywhere.com/static/images/";
+  const image_url = "https://teekay.pythonanywhere.com/static/images/";
 
   return (
     <div className="container mt-4">
